@@ -1,0 +1,32 @@
+{
+    "expiration-date": {
+      "ja": "有効期限:"
+    },
+    "barcode-title": {
+      "ja": "●商品購入用バーコード"
+    },
+    "barcode-note": {
+      "ja": "10秒後に商品購入シミュレーションのため、バーコード読み込みが自動的に実施されます。"
+    },
+    "disclaimer-title": {
+      "ja": "●デモアプリ使用上の注意"
+    },
+    "disclaimer-body-1": {
+      "ja": "Use Case 会員証デモアプリでは、皆さまのLINEアカウントの「プロフィール情報（ユーザーID）」を取得します。ユーザーIDはサーバーに保存しますが、保存したデータは毎日削除されます。"
+    },
+    "disclaimer-body-2": {
+      "ja": "上記をご理解のうえ、ご利用ください。"
+    },
+    "button-add-point-title": {
+      "ja": "ポイント付与"
+    },
+    "button-add-point-body": {
+      "ja": "バーコードが読み取られた時のデモ"
+    },
+    "liff-id-error": {
+      "ja": "不正なLIFFIDです。"
+    },
+    "liff-init-error": {
+      "ja": "liff.init()が失敗しました。"
+    }
+}

@@ -1,0 +1,24 @@
+trigger:
+  - main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+  - checkout: self
+    submodules: true
+
+  - script: |
+      sed -i "s@const liffId = \".*\"@const liffId = \"$LIFF_ID\"@g" frontend/members_card.js
+      sed -i "s@const BASE_URL = \".*\"@const BASE_URL = \"https://$BASE_HOSTNAME/api/members_card\"@g" frontend/members_card.js
+    env:
+      LIFF_ID: $(LIFF_ID)
+      BASE_HOSTNAME: $(BASE_HOSTNAME)
+
+  - task: AzureStaticWebApp@0
+    inputs:
+      app_location: "/frontend" 
+      api_location: "/backend/MembersCard"
+      output_location: ""
+    env:
+      azure_static_web_apps_api_token: $(deployment_token)
