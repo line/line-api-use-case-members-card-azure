@@ -1,5 +1,5 @@
 # Overview
-This is the demo application source code for the [Membership Card](https://lineapiusecase.com/ja/usecase/membership.html) provided on the [LINE API Use Case site](https://lineapiusecase.com/ja/top.html). () provided on the [LINE API Use Case site]().    
+This is the demo application source code for the [Membership Card](https://lineapiusecase.com/ja/usecase/membership.html) provided on the [LINE API Use Case](https://lineapiusecase.com/ja/top.html).
 By referring to the steps described in this article, you can develop a membership card application using the LINE API.  
 For example, companies that provide membership cards at offline stores such as supermarkets, drugstores, and apparel stores can also migrate to online membership cards.  
 Furthermore, by encouraging users to register as friends with the store's official account when they register as members, they can build a communication channel with users.  
