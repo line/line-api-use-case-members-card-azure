@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.net.sdk.functions\3.0.12\build\Microsoft.NET.Sdk.Functions.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.net.sdk.functions\3.0.12\build\Microsoft.NET.Sdk.Functions.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.azure.cosmos\3.18.0\build\netstandard2.0\Microsoft.Azure.Cosmos.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.azure.cosmos\3.18.0\build\netstandard2.0\Microsoft.Azure.Cosmos.targets')" />
+  </ImportGroup>
+</Project>

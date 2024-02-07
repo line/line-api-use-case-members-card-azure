@@ -1,0 +1,18 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "LineChannelId": "2002849639",
+    "LiffChannelId": "2002849777",
+    "LineChannelSecret": "239ce576c6a85c5ccb3520002bb52233",
+    "LineLiffId": "2002849777-vlD96GWm",
+    "CosmosDbAccount": "https://localhost:8081/",
+    "CosmosDbKey": "C2y6yDjf5/R+ob0N8A7Cgv30VRDJIWEHLM+4QDU5DE2nQ9nDuVTqobD4b8mGGyPMbIZnqyMsEcaGQy67XIw/Jw=="
+  },
+  "Host": {
+    "LocalHttpPort": 7071,
+    "CORS": "*",
+    "CORSCredentials": false
+  }
+}
