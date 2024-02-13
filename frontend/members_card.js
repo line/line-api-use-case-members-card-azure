@@ -1,5 +1,5 @@
 // 環境設定を読み込む
-const BASE_URL = "https://lemon-desert-0951fab00.4.azurestaticapps.net";
+const BASE_URL = "https://agreeable-coast-04bafb600.4.azurestaticapps.net";
 const liffId = "2002849777-vlD96GWm"
 
 // 言語設定の定数宣言
