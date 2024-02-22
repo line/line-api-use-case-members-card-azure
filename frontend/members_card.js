@@ -1,6 +1,6 @@
 // 環境設定を読み込む
-const BASE_URL = "https://xxxxxxxxx.azurestaticapps.net";
-const liffId = "xxxxxxxx-xxxxxxxx"
+const BASE_URL = "https://agreeable-coast-04bafb600.4.azurestaticapps.net";
+const liffId = "2002849777-vlD96GWm"
 
 // 言語設定の定数宣言
 const defaultLang = "ja";
